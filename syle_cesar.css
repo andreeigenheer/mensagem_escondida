@@ -1,0 +1,23 @@
+.imagem {
+  text-align: center;
+  margin-top: 50px;
+}
+.titulo {
+  text-align: center;
+  margin: 35px;
+  font-size: 50px;
+}
+
+.container {
+  display: inline-flex;
+  margin: 20px;
+  font-size: 50px;
+}
+
+.label {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+  border: 20px;
+  margin: 0 0 10px;
+}

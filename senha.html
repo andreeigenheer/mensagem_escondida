@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syle_cesar.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Pagina de Login</title>
+</head>
+
+<body>
+    <form>
+        <div class="imagem">
+
+            <img src="back.png">
+        </div>
+        <div class="container">
+        <label for="senha">Digite a senha: </label>
+        <input type="password" id="senha">
+        <input type="button" value="Submit" onclick="verificaSenha();" />
+    </div>
+    
+    </form>
+    <script type="text/javascript">
+        function verificaSenha() {
+            var confirmaSenha = "souresiliente";
+            var senha = document.getElementById("senha").value;
+            if (senha == confirmaSenha) {
+                window.location = "index.html";
+            }
+            else {
+                alert("Senha Invalida! Leia o arquivo README!");
+            }
+        }
+    </script>
+</body>
+
+</html>
